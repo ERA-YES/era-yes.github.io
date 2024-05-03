@@ -1,60 +1,59 @@
 name: Deploy to Github Pages
 
 on:
-    push:
-        branches: [main]
-    release: 
-        types: [published]
+  push:
+    branches: [main]
+  release: 
+    types: [published]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        permissions:
-            contents: write
+    permissions:
+        contents: write
 
-        steps:
-            - uses: actions/checkout@v4
-                with:
-                    fetch-depth: 0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-            - name: Setup Node
-                uses: actions/setup-node@v1
-                with:
-                    node-version: "18.x"
-            
-            - name: Setup Hexo
-                run: |
-                    export TZ='Asia/Shanghai'
-                    npm install hexo-cli -g
-            
-            # - name: Cache Hexo
-            #     id: cache-npm
-            #     uses: actions/cache@v3
-            #     env:
-            #         cache-name: cache-node-modules
-            #     with:
-            #         path: node_modules
-            #         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-            #         restore-keys: |
-            #             ${{ runner.os }}-build-${{ env.cache-name }}-
-            #             ${{ runner.os }}-build-
-            #             ${{ runner.os }}-
-                    
-            - name: Install required packages
-                if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-                run: |
-                    npm install --save
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "18.x"
+        
+      - name: Setup Hexo
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+        
+        # - name: Cache Hexo
+        #     id: cache-npm
+        #     uses: actions/cache@v3
+        #     env:
+        #         cache-name: cache-node-modules
+        #     with:
+        #         path: node_modules
+        #         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        #         restore-keys: |
+        #             ${{ runner.os }}-build-${{ env.cache-name }}-
+        #             ${{ runner.os }}-build-
+        #             ${{ runner.os }}-
+                
+      - name: Install required packages
+        # if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        run: npm install --save
 
-            - name: Build
-                run: |
-                    hexo clean
-                    hexo generate
+      - name: Build
+        run: |
+          hexo clean
+          hexo generate
 
-            - name: Deploy
-                uses: JamesIves/github-pages-deploy-action@v4
-                with:
-                    branch: gh-pages
-                    folder: public
-                    clean: true
-                    single-commit: true
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
+          single-commit: true
