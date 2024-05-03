@@ -1,5 +1,29 @@
----
+﻿---
 title: Hello World
+date: 2023-7-3 00:00:00
+updated: 2023-12-08 12:58:32
+tags: Hexo
+categories: Hexo
+keywords:
+description:
+top_img:
+comments:
+cover: https://pic.imgdb.cn/item/64bf58951ddac507cc907a03.webp
+toc:
+toc_number:
+toc_style_simple:
+copyright:
+copyright_author: 12
+copyright_author_href: 123
+copyright_url: 12
+copyright_info: 123
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
+top_group_index: 1
+background: "#fff"
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
