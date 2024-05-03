@@ -1,0 +1,95 @@
+- class_name: 关于页
+  subtitle: 因为伟大的戏剧正在上演,因为你可以献上一首诗
+  avatarImg: img/512.png
+  name: EraYes
+  description: 是一名 学生、独立开发者、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 追求源于
+    title2: 热爱 而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Dream Adventure
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    item:
+      - 
+    img: 
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: 
+  map:
+    title: 
+    StrengthenTitle: 
+    background: 
+    backgroundDark: 
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2006
+    selfInfoTips2: 
+    selfInfoContent2: 
+    selfInfoTips3: 
+    selfInfoContent3: 
+  personalities:
+    author_name: 提倡者
+    title_url: https://www.16personalities.com/ch/%E7%BB%93%E6%9E%9C/infj-t/x/7tdmrob5u?utm_source=results-turbulent-advocate&utm_medium=email&utm_campaign=ch&utm_content=view-results
+    personality_type: INFJ-T
+    photo_url: img/512.png
+    personality_img: https://www.16personalities.com/static/images/personality-types/scenes/diplomats_Advocate_INFJ_introduction.svg
+    name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 这里的
+    maxim_top: 空 还没
+    maxim_bottom: 想好
+  buff:
+    buff_tips: 座右铭
+    buff_top: 因为伟大的戏剧正在上演，
+    buff_bottom: 因为你可以献上一首诗。
+  game:
+    game_tips: 
+    game_title: 
+    game_uid: 
+    game_bg: 
+  comic:
+    comic_tips: 
+    comic_title: 
+    comic_list:
+      - name: 
+        href: 
+        cover: 
+      - name: 
+        href: 
+        cover: 
+      - name: 
+        href: 
+        cover: 
+      - name: 
+        href: 
+        cover: 
+      - name: 
+        href: 
+        cover: 
+  like:
+    like_tips: 
+    like_title: 
+    like_bg: 
+    like_bottom: 
+  music:
+    music_tips: 
+    music_title: 
+    music_bg: 
+    music_link: /music
+  # reward_list:
+  #   - name: 
+  #     amount: 
+  #     datatime: 
+
+  extra: false

@@ -1,0 +1,47 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Node
+      color: "#339933"
+      icon: img/icons/svg/nodedotjs.svg
+    - name: Python
+      color: "#3776AB"
+      icon: img/icons/svg/python.svg
+    - name: Vue
+      color: "#4FC08D"
+      icon: img/icons/svg/vuedotjs.svg
+    - name: JavaScript
+      color: "#F7DF1E"
+      icon: img/icons/svg/javascript.svg
+    - name: CSS3
+      color: "#1572B6"
+      icon: img/icons/svg/css3.svg
+    - name: HTML
+      color: "#E34F26"
+      icon: img/icons/svg/html5.svg
+    - name: Git
+      color: "#F05032"
+      icon: img/icons/svg/git.svg
+    - name: GitHub
+      color: "#181717"
+      icon: img/icons/svg/github.svg
+    - name: C
+      color: "#A8B9CC"
+      icon: img/icons/svg/c.svg
+    - name: C++
+      color: "#00599C"
+      icon: img/icons/svg/cplusplus.svg
+    - name: C#
+      color: "#239120"
+      icon: img/icons/svg/csharp.svg
+    - name: Unity
+      color: "#FFFFFF"
+      icon: img/icons/svg/unity.svg
+    - name: Cocos
+      color: "#55C2E1"
+      icon: img/icons/svg/cocos.svg
+    - name: Win10
+      color: "#0078D6"
+      icon: img/icons/svg/windows.svg
+    - name: PowerShall
+      color: "#5391FE"
+      icon: img/icons/svg/powershell.svg

@@ -1,0 +1,85 @@
+- class_name: 推荐博客
+  flink_style: flexcard
+  npm: https://unpkg.com/erayes-hexo-theme/links/
+  link_list:
+    - name: EraYes
+      link: https://EraYes.top/
+      descr: 因为伟大的戏剧正在上演，因为你可以献上一首诗
+      hundredSuffix: ""
+      avatar: 
+      siteshot: 
+
+    - name: Codeboy
+      link: https://www.codeboy.site/
+      descr: 代码小子的博客，这位是真爹
+      hundredSuffix: ""
+      avatar: 
+      siteshot: 
+
+    - name: Florance
+      link: https://florance.eu.org/
+      descr: FFFFFF It's Florance
+      hundredSuffix: ""
+      avatar: 
+      siteshot: 
+
+    - name: Truthluming
+      link: https://truthluming.top/
+      descr: 16岁，事学生
+      hundredSuffix: ""
+      avatar: 
+      siteshot: 
+
+    - name: LighTzh
+      link: https://son.florance.eu.org/
+      descr: NO INFO
+      hundredSuffix: ""
+      avatar: 
+      siteshot: 
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: EraYes
+  npm: https://unpkg.com/erayes-hexo-theme/links/
+  link_list:
+    - name: EraYes
+      recommend: True
+      link: https://EraYes.top/
+      descr: 因为伟大的戏剧正在上演，因为你可以献上一首诗
+      hundredSuffix: ""
+      avatar:
+
+    - name: Codeboy
+      recommend: False
+      link: https://www.codeboy.site/
+      descr: 代码小子的博客，这位是真爹
+      hundredSuffix: ""
+      avatar: 
+      
+    - name: Rei
+      recommend: False
+      link: https://rei.ac/
+      descr: 卖个萌，摸摸头
+      hundredSuffix: ""
+      avatar: 
+
+    - name: Florance
+      recommend: False
+      link: https://florance.eu.org/
+      descr: FFFFFF It's Florance
+      hundredSuffix: ""
+      avatar: 
+
+    - name: Truthluming
+      recommend: False
+      link: https://truthluming.top/
+      descr: 16岁，事学生
+      hundredSuffix: ""
+      avatar: 
+
+    - name: LighTzh
+      recommend: False
+      link: https://son.florance.eu.org/
+      descr: NO INFO
+      hundredSuffix: ""
+      avatar: 
