@@ -3,22 +3,35 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: EraYes
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: EraYes
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://era-yes.github.io/HexoBlog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+#search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: true
 
 # Directory
 source_dir: source
@@ -101,4 +114,6 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:ERA-YES/ERA-YES.github.io.git
+  branch: main
