@@ -813,7 +813,7 @@ aside:
     name_link: /about
   card_announcement:
     enable: true
-    content: 具体请看<a href="/HexoBlog/updates/">更新日志</a><hr>主题大范围全部重整，还没完成，但我要去上学了
+    content: 具体请看<a href="/updates/">更新日志</a><hr>主题大范围全部重整，还没完成，但我要去上学了
   card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
