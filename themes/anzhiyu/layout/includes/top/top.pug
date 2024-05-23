@@ -2,6 +2,8 @@
 - let { title, subTitle, siteText,default_descr } = home_top_config
 if home_top_config.enable
   #home_top
+    #hexo-bilibili-banner-app(style='height: auto;width: 100%')
+      script(src=url_for("js/banner.js") type="module")
     .swiper_container_card(style='height: auto;width: 100%')
       #bannerGroup
         #random-banner
